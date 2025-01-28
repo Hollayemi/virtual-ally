@@ -26,7 +26,7 @@ const Home = () => {
                         </Typography>
                         <Button
                             variant="contained"
-                            className="!bg-black !text-white !h-9 !w-44 !shadow-none !outline-none !rounded-md !mt-8"
+                            className="!bg-black !text-white !h-10 !w-44 !shadow-none !outline-none !rounded-md !mt-8"
                         >
                             Request a consult
                         </Button>

@@ -7,8 +7,8 @@ export const CounterTag = ({ icon, stat, tag }) => {
         <Box className="flex items-center justify-center">
             <IconifyIcon icon={`tabler:${icon}`} className="mr-2 text-2xl" />
             <Box>
-                <Typography className="text-md">{stat}</Typography>
-                <Typography className="text-md">{tag}</Typography>
+                <Typography className="!text-md">{stat}</Typography>
+                <Typography className="!text-md">{tag}</Typography>
             </Box>
         </Box>
     );
@@ -25,10 +25,10 @@ export const UserRating = ({ image, name, from }) => {
                 className="w-8 h-8 rounded-md mr-2"
             />
             <Box>
-                <Typography className="!text-[12px] font-bold leading-4">
+                <Typography className="!text-[12px] !font-bold !leading-4">
                     {name}
                 </Typography>
-                <Typography className="!text-[11px] leading-3">
+                <Typography className="!text-[11px] !leading-3">
                     {from}
                 </Typography>
             </Box>
